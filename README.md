@@ -27,17 +27,17 @@
 Experience the website before exploring the source code.
 
 <p align="center">
-  <img src="preview1.jpg" alt="Homepage Preview" width="48%">
-  <img src="preview2.jpg" alt="About Section Preview" width="48%">
+  <img src="preview-1.jpg" alt="Homepage Preview" width="48%">
+  <img src="preview-2.jpg" alt="About Section Preview" width="48%">
 </p>
 
 <p align="center">
-  <img src="preview3.jpg" alt="Services Preview" width="48%">
-  <img src="preview4.jpg" alt="Coffee Menu Preview" width="48%">
+  <img src="preview-3.jpg" alt="Services Preview" width="48%">
+  <img src="preview-4.jpg" alt="Coffee Menu Preview" width="48%">
 </p>
 
 <p align="center">
-  <img src="preview5.jpg" alt="Contact Page Preview" width="75%">
+  <img src="preview-5.jpg" alt="Contact Page Preview" width="75%">
 </p>
 
 ---
