@@ -1,182 +1,613 @@
 <!DOCTYPE html>
+<!--
+    ============================================================
+    PROJECT   : Anudeep's Coffee House - Homepage
+    FILE      : index.html
+    PURPOSE   : A complete, beginner-friendly website built using
+                ONLY plain HTML tags and inline attributes.
+                No CSS files, no JavaScript, no frameworks.
+    THEME     : Coffee Shop
+    NOTE      : Colors are added using bgcolor, <font color="">,
+                and table attributes only, exactly as HTML was
+                written in the classic "table layout" era.
+    ============================================================
+-->
 <html>
-<head >
-<meta name="author" content="Anudeep">
-<meta http-equiv="Content-type" content="text/html"; charset="utf-8" />
-<title> Website Project</title>
+
+<!-- ================= HEAD SECTION =================
+     Contains page title, character encoding, and a short
+     description. Nothing here is visible on the page itself. -->
+<head>
+    <title>Anudeep's Coffee House - Home</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anudeep's Coffee House - Freshly brewed coffee, cozy vibes, and warm hospitality.">
+    <meta name="keywords" content="coffee, cafe, coffee shop, espresso, latte, bakery">
+    <meta name="author" content="Anudeep's Coffee House">
 </head>
-<body> 
-<!--header path-->
-<table width="100%" height="60px" border="1" cellpadding="5" cell-spacing="5"
-       bgcolor="#000000">
+
+<!-- ================= BODY START =================
+     bgcolor gives the whole page a warm cream background.
+     text sets the default text color for the page. -->
+<body bgcolor="#FFF3E0" text="#3E2723" link="#8D6E63" vlink="#5D4037" alink="#D84315">
+
+<!-- ================= HEADER SECTION =================
+     Contains the site logo (placeholder image) and the
+     website title, centered at the top of the page. -->
+<center>
+<table width="100%" bgcolor="#4E342E" border="0" cellpadding="10" cellspacing="0">
     <tr>
-        <td align="left">
-            <table width="547" align ="Center" border="0" cellpadding=1 cell-spacing="1" >
-                <td width="96"><font face="Verdana,Geneva ,sans-serif" Color="#FFFFFF">
-                <h3>Home</h3></font></td>
-                    
-                <td width="113"><font face="Verdana, geneva ,sans-serif" color="#FFFFFF">
-                <h3>About</h3></font></td>
-                    
-                <td width="128"><font face="Verdana,geneva ,sans-serif" color="#FFFFFF">
-                <h3>Services</h3></font></td>
-                
-                <td width="114"><font face="Verdana,geneva ,sans-serif" color="#FFFFFF">
-                <h3>Clients</h3></font></td> 
-
-                <td width="80"><font face="Verdana,geneva ,sans-serif" color="#FFFFFF">
-                <h3>Contact</h3></font></td> 
-
-            </table>   
+        <td width="10%" align="center">
+            <img src="https://placehold.co/90x90/6F4E37/FFFFFF.png?text=ACH" width="90" height="90" alt="Anudeep's Coffee House Logo" border="3">
         </td>
-    </tr>
-</table>
-<!--This is for intro -->
-<table width="100%" height="120px" border="1" cellpadding="5"cell-spacing="5"
-       bgcolor="#DCEAD9">
-
-       <tr>
-            <td align="Center">
-                <table width="708" border=0 cellspacing="1" cellpadding="1">
-                    <tr>
-                        <td width="338" align="left"><font face="Verdana,geneva ,sans-serif" color="#000000" size="4">
-                            <strong>My Website Name<br />Name of your choice </strong></font></td>   
-                            
-                        <td width="291" align="right"><font face="Verdana,geneva ,sans-serif" color="#000000" size="4">
-                            <strong>Contact info<br />93*****49 </strong></font></td>  
-                    </tr>
-                </table>
-            </td>
-       </tr>
-</table>
-<!--This is for image set in page-->
-<table width="100%" height="150px" border="0" cellpadding="5" cell-spacing="5"
-bgcolor="#FFFFFF">
-    <tr>
-        <td align="center">
-            <table width="600" border="0" cellspacing="1" cellpadding="1">
-            <tr>
-                <td align="center"><img src="webimg.png" width="980" height="300">
-                
-                </td>
-
-            </tr>
-
-        </td>
-    </tr>
-
-</table>
-
-<!--This is to display our motto line-->
-<table width="100%" height="82px" border="0" cellpadding="5" cell-spacing="5"
-bgcolor="#FFFFFF">
-    <tr>
-        <td height="72" align="center" valign="top">
-
-            <table width="730" border="0" cellpadding="1" cell-spacing="1">
-                <tr>
-                    <td width="726" align="center"><font face="Verdana,geneva ,sans-serif" color="#000000" size="6">
-                        <strong>This is my personal website <br />Dream. Plan. Create </strong><br /></font>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-
-<!--This is  to create contact link and msg link-->
-<table width="100%" height="236" border="0" cellpadding="5" cell-spacing="5"
-bgcolor="#FFFFFF">
-    <tr>
-        <td height="72" align="center" valign="top">
-            <table width="313" border="0" cellpadding="3" cell-spacing="3" color="#DCEAD9">
-                <tr>
-                    <td width="301" align="center" nowrap= "nowarp"><font face="Verdana,geneva ,sans-serif" color="#DCEAD9" size="6" bg color="#000000">
-                        <a href="https://trendbuffet.com/"><strong>Contact us at </a> <br />
-                          </strong><br /></font>
-                    </td>
-                </tr>
-            </table>
-            <tr>
-                <td height="72" align="center" valign="top">
-                    <font face="Verdana,geneva ,sans-serif" color="#000000" size="4">
-                        <strong>Register for our newsletter<br /> </strong></font>
-                        <br />
-                    <form name = Contact method="post" action="send.php">
-                        <input type="text" name="email /">
-                        <input type="submit" name="button" value="submit" />
-                    </form>
-                </td>
-            </tr>
-        </td>
-    </tr>
-</table>
-<!--This is to create tabular data-->
-
-<table width="100%" height="236" border="0" cellpadding="5" cell-spacing="5"
-bgcolor="#FFFFFF">
-        <tr>
-            <td height="72" align="center" valign="top">
-                <table width="90%"  border="1" cellpadding="8" cell-spacing="0" bgcolor="#DCEAD9">
-                    <tr>
-                       <td width="268" ><font face="Verdana,geneva ,sans-serif" color="#000000" size="3">
-                        <strong><u>About us</u> </strong></font></td>
-                    
-                        <td width="286" ><font face="Verdana,geneva ,sans-serif" color="#000000" size="3">
-                        <strong><u>Our Vision</u> </strong></font></td>
-                    
-                        <td width="290" ><font face="Verdana,geneva ,sans-serif" color="#000000" size="3">
-                        <strong><u>Our Services</u> </strong></font></td>
-
-                    </tr>
-                    <tr>
-                        <td valign="top"><font face="Verdana,geneva ,sans-serif" color="#000000" size="2">
-                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-                            Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. 
-                            Feel free to drag and drop me anywhere you like on your page.
-                            I’m a great place for you to tell a story and let your users know a little more about you.</font>
-                        </td>
-
-                        <td valign="top"><font face="Verdana,geneva ,sans-serif" color="#000000" size="2">
-                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-                            Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. 
-                            Feel free to drag and drop me anywhere you like on your page.
-                            I’m a great place for you to tell a story and let your users know a little more about you.</font>
-                        </td>
-
-                        <td valign="top"><font face="Verdana,geneva ,sans-serif" color="#000000" size="2">
-                            <ul>
-                                <li>it is</li><br />
-                                <li>a</li><br />
-                                <li>unordered list</li><br />
-                                <li>specified </li><br />
-                                <li>can be changed</li><br />
-                            </ul>
-                            </font>
-                        </td>
-  
-                    </tr>               
-                </table>
-            </td>
-        </tr>
-</table>
-
-<!--This is to create footer-->
-
-<table width="100%" height="60" border="0" cellpadding="5" cell-spacing="5"
-bgcolor="#000000">
-     <tr>
-        <td align="center">
-            <font face="Verdana,geneva ,sans-serif" color="#DCEAD9" size="2">
-                Home - About - Services - Clients - Contact <br />
-                <br>
-                © Copyright 2023 by Anudeep
+        <td width="80%" align="center">
+            <font face="Georgia, serif" color="#FFE0B2" size="7">
+                <b>Anudeep's Coffee House</b>
             </font>
-
-            
+            <br>
+            <font face="Verdana" color="#D7CCC8" size="3">
+                <i>Every Cup Tells a Story</i>
+            </font>
         </td>
-     </tr>
+        <td width="10%" align="center">
+            <img src="https://placehold.co/90x90/D2691E/FFFFFF.png?text=Est.2010" width="90" height="90" alt="Established 2010" border="3">
+        </td>
+    </tr>
+</table>
+</center>
+
+<!-- ================= NAVIGATION BAR =================
+     A horizontal table used as a navigation menu.
+     Each cell contains a link to a section on this page. -->
+<table width="100%" bgcolor="#795548" border="0" cellpadding="8" cellspacing="0">
+    <tr align="center">
+        <td width="12%"><font color="#FFFFFF"><a href="#home"><b>Home</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#about"><b>About</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#services"><b>Services</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#gallery"><b>Gallery</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#team"><b>Team</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#pricing"><b>Pricing</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#faq"><b>FAQ</b></a></font></td>
+        <td width="12%"><font color="#FFFFFF"><a href="#contact"><b>Contact</b></a></font></td>
+    </tr>
+</table>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= HERO BANNER =================
+     A large full-width banner image that welcomes visitors. -->
+<a name="home"></a>
+<center>
+<img src="https://picsum.photos/id/431/1200/400" width="1200" height="400" alt="Coffee Shop Hero Banner" border="0">
+<br>
+<font face="Georgia" size="6" color="#4E342E"><b>Welcome to Anudeep's Coffee House</b></font>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= WELCOME SECTION =================
+     A short greeting with heading and introduction text. -->
+<a name="welcome"></a>
+<center>
+<table width="85%" border="0" cellpadding="15">
+    <tr>
+        <td bgcolor="#FFE0B2" align="center">
+            <h1><font color="#4E342E">Welcome to Our Coffee Family</font></h1>
+            <p>
+                <font face="Verdana" size="3" color="#3E2723">
+                Since 2010, <b>Anudeep's Coffee House</b> has been serving handcrafted coffee,
+                fresh pastries, and a warm, cozy atmosphere to our beloved community. Whether you need
+                a quiet corner to read a book or a lively spot to meet friends, we have the perfect table
+                waiting for you.
+                </font>
+            </p>
+        </td>
+    </tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= ABOUT US SECTION =================
+     Describes the story and mission of the coffee shop. -->
+<a name="about"></a>
+<center>
+<h2><font color="#D84315">About Us</font></h2>
+<table width="85%" border="1" bordercolor="#A1887F" cellpadding="12" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+        <td width="50%" valign="top">
+            <img src="https://picsum.photos/id/225/500/350" width="500" height="350" alt="Our Cafe Interior" border="2">
+        </td>
+        <td width="50%" valign="top" align="left">
+            <font face="Verdana" size="3" color="#3E2723">
+            <p><b>Our Story:</b> Anudeep's Coffee House started as a tiny family-owned stall and has
+            grown into one of the city's most loved coffee destinations.</p>
+            <p><b>Our Mission:</b> To serve ethically sourced, freshly roasted coffee while
+            creating a warm space for our community to connect.</p>
+            <p><b>Our Promise:</b> Quality beans, friendly faces, and a cup of comfort every single day.</p>
+            </font>
+        </td>
+    </tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= FEATURES SECTION =================
+     Highlights key features using Unicode emoji icons. -->
+<a name="features"></a>
+<center>
+<h2><font color="#D84315">Why Choose Us</font></h2>
+<table width="90%" border="0" cellpadding="15" cellspacing="10">
+    <tr align="center">
+        <td width="25%" bgcolor="#FFCCBC">
+            <font size="6">&#9749;</font><br>
+            <font face="Verdana" color="#4E342E"><b>Fresh Coffee</b></font><br>
+            <font size="2">Roasted daily in-house</font>
+        </td>
+        <td width="25%" bgcolor="#D7CCC8">
+            <font size="6">&#127859;</font><br>
+            <font face="Verdana" color="#4E342E"><b>Fresh Bakery</b></font><br>
+            <font size="2">Baked every morning</font>
+        </td>
+        <td width="25%" bgcolor="#FFE0B2">
+            <font size="6">&#128293;</font><br>
+            <font face="Verdana" color="#4E342E"><b>Fast Service</b></font><br>
+            <font size="2">Quick and friendly staff</font>
+        </td>
+        <td width="25%" bgcolor="#F8BBD0">
+            <font size="6">&#127894;</font><br>
+            <font face="Verdana" color="#4E342E"><b>Cozy Ambience</b></font><br>
+            <font size="2">Relax and unwind</font>
+        </td>
+    </tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= SERVICES SECTION =================
+     Displays our services in a colorful table. -->
+<a name="services"></a>
+<center>
+<h2><font color="#D84315">Our Services</font></h2>
+<table width="85%" border="2" bordercolor="#8D6E63" cellpadding="10" cellspacing="0">
+    <tr bgcolor="#6F4E37" align="center">
+        <td><font color="#FFFFFF"><b>Service</b></font></td>
+        <td><font color="#FFFFFF"><b>Description</b></font></td>
+        <td><font color="#FFFFFF"><b>Availability</b></font></td>
+    </tr>
+    <tr bgcolor="#FFF3E0">
+        <td>Dine In</td>
+        <td>Enjoy your coffee in our cozy indoor and outdoor seating</td>
+        <td>7:00 AM - 10:00 PM</td>
+    </tr>
+    <tr bgcolor="#FFE0B2">
+        <td>Takeaway</td>
+        <td>Grab your favorite brew on the go</td>
+        <td>7:00 AM - 10:00 PM</td>
+    </tr>
+    <tr bgcolor="#FFF3E0">
+        <td>Home Delivery</td>
+        <td>Hot coffee delivered fresh to your doorstep</td>
+        <td>8:00 AM - 9:00 PM</td>
+    </tr>
+    <tr bgcolor="#FFE0B2">
+        <td>Private Events</td>
+        <td>Book our cafe for birthdays, meetings, and celebrations</td>
+        <td>By Appointment</td>
+    </tr>
+    <tr bgcolor="#FFF3E0">
+        <td>Coffee Workshops</td>
+        <td>Learn brewing and latte art from our baristas</td>
+        <td>Weekends Only</td>
+    </tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= GALLERY SECTION =================
+     Displays at least 8 placeholder images in a grid layout. -->
+<a name="gallery"></a>
+<center>
+<h2><font color="#D84315">Our Gallery</font></h2>
+<table width="90%" border="0" cellpadding="8" cellspacing="8">
+    <tr align="center">
+        <td bgcolor="#FFCCBC"><img src="https://picsum.photos/id/30/250/180" width="250" height="180" alt="Gallery Image 1" border="2"></td>
+        <td bgcolor="#D7CCC8"><img src="https://picsum.photos/id/42/250/180" width="250" height="180" alt="Gallery Image 2" border="2"></td>
+        <td bgcolor="#FFE0B2"><img src="https://picsum.photos/id/91/250/180" width="250" height="180" alt="Gallery Image 3" border="2"></td>
+        <td bgcolor="#F8BBD0"><img src="https://picsum.photos/id/102/250/180" width="250" height="180" alt="Gallery Image 4" border="2"></td>
+    </tr>
+    <tr align="center">
+        <td bgcolor="#F8BBD0"><img src="https://picsum.photos/id/163/250/180" width="250" height="180" alt="Gallery Image 5" border="2"></td>
+        <td bgcolor="#FFE0B2"><img src="https://picsum.photos/id/195/250/180" width="250" height="180" alt="Gallery Image 6" border="2"></td>
+        <td bgcolor="#D7CCC8"><img src="https://picsum.photos/id/211/250/180" width="250" height="180" alt="Gallery Image 7" border="2"></td>
+        <td bgcolor="#FFCCBC"><img src="https://picsum.photos/id/292/250/180" width="250" height="180" alt="Gallery Image 8" border="2"></td>
+    </tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= TEAM SECTION =================
+     Introduces team members with photos, names, and roles. -->
+<a name="team"></a>
+<center>
+<h2><font color="#D84315">Meet Our Team</font></h2>
+<table width="90%" border="0" cellpadding="15" cellspacing="10">
+    <tr align="center">
+        <td width="25%" bgcolor="#FFF3E0">
+            <img src="https://placehold.co/150x150/8D6E63/FFFFFF.png?text=Anudeep" width="150" height="150" alt="Anudeep" border="3">
+            <br><font face="Verdana"><b>Anudeep</b></font>
+            <br><font size="2" color="#6D4C41"><i>Founder</i></font>
+        </td>
+        <td width="25%" bgcolor="#FFF3E0">
+            <img src="https://placehold.co/150x150/A1887F/FFFFFF.png?text=Anita" width="150" height="150" alt="Anita Rao" border="3">
+            <br><font face="Verdana"><b>Anita Rao</b></font>
+            <br><font size="2" color="#6D4C41"><i>Pastry Chef</i></font>
+        </td>
+        <td width="25%" bgcolor="#FFF3E0">
+            <img src="https://placehold.co/150x150/6F4E37/FFFFFF.png?text=Akhil" width="150" height="150" alt="Akhil" border="3">
+            <br><font face="Verdana"><b>Akhil</b></font>
+            <br><font size="2" color="#6D4C41"><i>Manager</i></font>
+        </td>
+        <td width="25%" bgcolor="#FFF3E0">
+            <img src="https://placehold.co/150x150/5D4037/FFFFFF.png?text=Priya" width="150" height="150" alt="Priya Nair" border="3">
+            <br><font face="Verdana"><b>Priya Nair</b></font>
+            <br><font size="2" color="#6D4C41"><i>Customer Relations</i></font>
+        </td>
+    </tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= PRICING SECTION =================
+     A three-plan pricing table for coffee subscriptions. -->
+<a name="pricing"></a>
+<center>
+<h2><font color="#D84315">Membership Pricing</font></h2>
+<table width="85%" border="0" cellpadding="0" cellspacing="15">
+<tr align="center" valign="top">
+    <td width="33%" bgcolor="#FFE0B2">
+        <table width="100%" border="1" bordercolor="#D2691E" cellpadding="10">
+            <tr bgcolor="#D2691E"><td align="center"><font color="#FFFFFF" size="5"><b>Basic</b></font></td></tr>
+            <tr><td align="center"><font size="6" color="#4E342E"><b>$9</b></font><font color="#4E342E">/month</font></td></tr>
+            <tr><td>
+                <font color="#3E2723">
+                &#9749; 1 Free Coffee/Week<br>
+                &#9749; 5% Discount<br>
+                &#9749; Member Card
+                </font>
+            </td></tr>
+        </table>
+    </td>
+    <td width="33%" bgcolor="#FFCCBC">
+        <table width="100%" border="2" bordercolor="#BF360C" cellpadding="10">
+            <tr bgcolor="#BF360C"><td align="center"><font color="#FFFFFF" size="5"><b>Premium</b></font></td></tr>
+            <tr><td align="center"><font size="6" color="#4E342E"><b>$19</b></font><font color="#4E342E">/month</font></td></tr>
+            <tr><td>
+                <font color="#3E2723">
+                &#9749; 3 Free Coffees/Week<br>
+                &#9749; 15% Discount<br>
+                &#9749; Free Pastry Monthly<br>
+                &#9749; Priority Seating
+                </font>
+            </td></tr>
+        </table>
+    </td>
+    <td width="33%" bgcolor="#D7CCC8">
+        <table width="100%" border="1" bordercolor="#4E342E" cellpadding="10">
+            <tr bgcolor="#4E342E"><td align="center"><font color="#FFE0B2" size="5"><b>VIP Gold</b></font></td></tr>
+            <tr><td align="center"><font size="6" color="#4E342E"><b>$35</b></font><font color="#4E342E">/month</font></td></tr>
+            <tr><td>
+                <font color="#3E2723">
+                &#9749; Unlimited Coffee<br>
+                &#9749; 25% Discount<br>
+                &#9749; Free Workshop Access<br>
+                &#9749; Reserved Table
+                </font>
+            </td></tr>
+        </table>
+    </td>
+</tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= STATISTICS SECTION =================
+     Shows numbers such as customers, projects, and reviews. -->
+<a name="stats"></a>
+<center>
+<h2><font color="#D84315">Anudeep's Coffee House By The Numbers</font></h2>
+<table width="85%" bgcolor="#4E342E" border="0" cellpadding="15">
+    <tr align="center">
+        <td width="25%"><font color="#FFE0B2" size="7"><b>15,000+</b></font><br><font color="#FFFFFF">Happy Customers</font></td>
+        <td width="25%"><font color="#FFE0B2" size="7"><b>320</b></font><br><font color="#FFFFFF">Events Hosted</font></td>
+        <td width="25%"><font color="#FFE0B2" size="7"><b>12</b></font><br><font color="#FFFFFF">Awards Won</font></td>
+        <td width="25%"><font color="#FFE0B2" size="7"><b>4,800</b></font><br><font color="#FFFFFF">5-Star Reviews</font></td>
+    </tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= TESTIMONIALS SECTION =================
+     Customer reviews shown using blockquote formatting. -->
+<a name="testimonials"></a>
+<center>
+<h2><font color="#D84315">What Our Customers Say</font></h2>
+<table width="85%" cellpadding="15">
+<tr>
+<td width="50%" bgcolor="#FFF3E0" valign="top">
+    <blockquote>
+        <font face="Georgia" color="#3E2723" size="3">
+        "The best cappuccino I have ever had! The atmosphere is so cozy and the staff
+        is incredibly friendly."
+        </font>
+    </blockquote>
+    <center><font color="#6D4C41"><b>&mdash; Meera S.</b></font></center>
+</td>
+<td width="50%" bgcolor="#FFE0B2" valign="top">
+    <blockquote>
+        <font face="Georgia" color="#3E2723" size="3">
+        "I visit every weekend for their fresh pastries. Anudeep's Coffee House feels like a
+        second home to me."
+        </font>
+    </blockquote>
+    <center><font color="#6D4C41"><b>&mdash; Arjun P.</b></font></center>
+</td>
+</tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= FAQ SECTION =================
+     Frequently asked questions using a definition list. -->
+<a name="faq"></a>
+<center>
+<h2><font color="#D84315">Frequently Asked Questions</font></h2>
+<table width="80%" align="center">
+<tr><td align="left">
+<dl>
+    <dt><font color="#4E342E"><b>Q: Do you offer Wi-Fi?</b></font></dt>
+    <dd><font color="#3E2723">Yes, free high-speed Wi-Fi is available for all our customers.</font></dd>
+    <br>
+    <dt><font color="#4E342E"><b>Q: Do you have vegan options?</b></font></dt>
+    <dd><font color="#3E2723">Yes, we offer a variety of vegan pastries and plant-based milk options.</font></dd>
+    <br>
+    <dt><font color="#4E342E"><b>Q: Can I book the cafe for private events?</b></font></dt>
+    <dd><font color="#3E2723">Absolutely! Please contact us in advance to reserve the space.</font></dd>
+    <br>
+    <dt><font color="#4E342E"><b>Q: Do you deliver outside the city?</b></font></dt>
+    <dd><font color="#3E2723">Currently, delivery is available only within city limits.</font></dd>
+</dl>
+</td></tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= VIDEO SECTION =================
+     Embedded YouTube video showcasing the coffee shop. -->
+<a name="video"></a>
+<center>
+<h2><font color="#D84315">Take A Video Tour</font></h2>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Anudeep's Coffee House Video Tour" frameborder="0" allowfullscreen></iframe>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= PRODUCTS TABLE SECTION =================
+     A sample menu / product table with prices. -->
+<a name="products"></a>
+<center>
+<h2><font color="#D84315">Our Menu Highlights</font></h2>
+<table width="80%" border="1" bordercolor="#8D6E63" cellpadding="10" cellspacing="0" bgcolor="#FFFFFF">
+    <tr bgcolor="#6F4E37" align="center">
+        <td><font color="#FFFFFF"><b>Item</b></font></td>
+        <td><font color="#FFFFFF"><b>Category</b></font></td>
+        <td><font color="#FFFFFF"><b>Price</b></font></td>
+    </tr>
+    <tr bgcolor="#FFF3E0"><td>Cappuccino</td><td>Hot Coffee</td><td>$4.50</td></tr>
+    <tr bgcolor="#FFE0B2"><td>Cold Brew</td><td>Cold Coffee</td><td>$5.00</td></tr>
+    <tr bgcolor="#FFF3E0"><td>Caramel Latte</td><td>Hot Coffee</td><td>$5.50</td></tr>
+    <tr bgcolor="#FFE0B2"><td>Blueberry Muffin</td><td>Bakery</td><td>$3.25</td></tr>
+    <tr bgcolor="#FFF3E0"><td>Chocolate Croissant</td><td>Bakery</td><td>$3.75</td></tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= LISTS SECTION =================
+     Demonstrates ordered list, unordered list, and quote. -->
+<a name="lists"></a>
+<center>
+<h2><font color="#D84315">Brewing Guide &amp; Reasons To Visit</font></h2>
+<table width="80%">
+<tr valign="top">
+<td width="50%" align="left" bgcolor="#FFE0B2">
+    <font color="#4E342E"><b>How We Brew Our Coffee:</b></font>
+    <ol>
+        <li>Select fresh, ethically sourced coffee beans</li>
+        <li>Roast beans in small batches daily</li>
+        <li>Grind beans right before brewing</li>
+        <li>Brew using filtered water at the perfect temperature</li>
+        <li>Serve fresh with a smile</li>
+    </ol>
+</td>
+<td width="50%" align="left" bgcolor="#D7CCC8">
+    <font color="#4E342E"><b>Reasons To Visit Us:</b></font>
+    <ul>
+        <li>Freshly roasted coffee beans</li>
+        <li>Cozy and relaxing atmosphere</li>
+        <li>Friendly and skilled baristas</li>
+        <li>Free Wi-Fi for all guests</li>
+        <li>Live music on weekends</li>
+    </ul>
+</td>
+</tr>
+</table>
+</center>
+
+<!-- ================= QUOTE SECTION =================
+     A featured inspirational quote about coffee. -->
+<a name="quote"></a>
+<center>
+<table width="70%" bgcolor="#4E342E" cellpadding="20">
+<tr><td align="center">
+<blockquote>
+    <font color="#FFE0B2" size="5" face="Georgia"><i>
+    "Coffee is a language in itself." &mdash; Jackie Chan
+    </i></font>
+</blockquote>
+</td></tr>
+</table>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= USEFUL LINKS SECTION =================
+     Quick links to important parts of the site and social pages. -->
+<a name="links"></a>
+<center>
+<h2><font color="#D84315">Useful Links</font></h2>
+<table width="70%">
+<tr align="center">
+    <td width="25%"><a href="#about"><font color="#6D4C41">About Us</font></a></td>
+    <td width="25%"><a href="#services"><font color="#6D4C41">Our Services</font></a></td>
+    <td width="25%"><a href="#pricing"><font color="#6D4C41">Membership Plans</font></a></td>
+    <td width="25%"><a href="#contact"><font color="#6D4C41">Contact Us</font></a></td>
+</tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= MARQUEE ANNOUNCEMENT =================
+     A scrolling text banner for a special announcement. -->
+<center>
+<marquee behavior="scroll" direction="left" scrollamount="6" bgcolor="#D84315" width="90%" height="40">
+    <font color="#FFFFFF" size="4"><b>&#9749; Special Offer: Buy 1 Get 1 Free on all Cold Brews every Friday! &#9749;</b></font>
+</marquee>
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= CONTACT FORM SECTION =================
+     A detailed contact form for visitor inquiries and feedback. -->
+<a name="contact"></a>
+<center>
+<h2><font color="#D84315">Contact Us</font></h2>
+<table width="70%" bgcolor="#FFF3E0" border="1" bordercolor="#A1887F" cellpadding="15">
+<tr><td>
+<form action="#" method="post">
+    <fieldset>
+        <legend><font color="#4E342E" size="4"><b>Send Us A Message</b></font></legend>
+
+        <p><font color="#3E2723"><b>Full Name:</b></font><br>
+        <input type="text" name="fullname" size="40" placeholder="Enter your name"></p>
+
+        <p><font color="#3E2723"><b>Email Address:</b></font><br>
+        <input type="email" name="email" size="40" placeholder="Enter your email"></p>
+
+        <p><font color="#3E2723"><b>Phone Number:</b></font><br>
+        <input type="tel" name="phone" size="40" placeholder="Enter your phone number"></p>
+
+        <p><font color="#3E2723"><b>Address:</b></font><br>
+        <textarea name="address" rows="3" cols="40">Type your address here</textarea></p>
+
+        <p><font color="#3E2723"><b>Gender:</b></font><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other</p>
+
+        <p><font color="#3E2723"><b>Date of Birth:</b></font><br>
+        <input type="date" name="dob"></p>
+
+        <p><font color="#3E2723"><b>Country:</b></font><br>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select></p>
+
+        <p><font color="#3E2723"><b>Interests:</b></font><br>
+        <input type="checkbox" name="interest" value="coffee"> Coffee Tasting
+        <input type="checkbox" name="interest" value="workshop"> Workshops
+        <input type="checkbox" name="interest" value="events"> Private Events
+        <input type="checkbox" name="interest" value="membership"> Membership</p>
+
+        <p><font color="#3E2723"><b>Your Message:</b></font><br>
+        <textarea name="message" rows="5" cols="40">Type your message here</textarea></p>
+
+        <p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </p>
+    </fieldset>
+</form>
+</td></tr>
+</table>
+</center>
+
+<hr color="#A1887F" size="2" width="90%">
+
+<!-- ================= LOCATION / MAP PLACEHOLDER =================
+     A placeholder image representing the cafe's location. -->
+<center>
+<h3><font color="#D84315">Find Us Here</font></h3>
+<img src="https://placehold.co/900x300/8D6E63/FFFFFF.png?text=Cafe+Location+Map" width="900" height="300" alt="Cafe Location Map" border="2">
+</center>
+
+<hr color="#6F4E37" size="4" width="100%">
+
+<!-- ================= FOOTER SECTION =================
+     Contains copyright, social links, quick links, and contact info. -->
+<footer>
+<table width="100%" bgcolor="#3E2723" cellpadding="20" cellspacing="0">
+<tr valign="top" align="center">
+    <td width="33%">
+        <font color="#FFE0B2" size="4"><b>Quick Links</b></font><br><br>
+        <font color="#D7CCC8">
+        <a href="#home"><font color="#D7CCC8">Home</font></a><br>
+        <a href="#about"><font color="#D7CCC8">About Us</font></a><br>
+        <a href="#services"><font color="#D7CCC8">Services</font></a><br>
+        <a href="#faq"><font color="#D7CCC8">FAQ</font></a>
+        </font>
+    </td>
+    <td width="33%">
+        <font color="#FFE0B2" size="4"><b>Contact Details</b></font><br><br>
+        <font color="#D7CCC8">
+        123 Coffee Street, Vijayawada, AP, India<br>
+        Phone: 123456789<br>
+        Email: hello@brewandbliss.example<br>
+        Hours: 7:00 AM - 10:00 PM Daily
+        </font>
+    </td>
+    <td width="33%">
+        <font color="#FFE0B2" size="4"><b>Follow Us</b></font><br><br>
+        <font color="#D7CCC8">
+        <a href="#"><font color="#D7CCC8">Facebook</font></a> |
+        <a href="#"><font color="#D7CCC8">Instagram</font></a> |
+        <a href="#"><font color="#D7CCC8">Twitter</font></a> |
+        <a href="#"><font color="#D7CCC8">YouTube</font></a>
+        </font>
+    </td>
+</tr>
+<tr>
+    <td colspan="3" align="center" bgcolor="#4E342E">
+        <font color="#FFE0B2" size="2">
+        &copy; 2026 Anudeep's Coffee House. All Rights Reserved by Anudeep Paladugu. | Built with plain HTML for learning purposes.
+        </font>
+    </td>
+</tr>
+</table>
+</footer>
 
 </body>
 </html>
-   
