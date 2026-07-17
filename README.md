@@ -1,147 +1,171 @@
-# ☕ Anudeep's Coffee House
+# ☕ Beginner HTML Webpage
 
 <p align="center">
-  <b>A colorful beginner-friendly static website built using only HTML.</b><br>
-  Designed to demonstrate core HTML concepts through a complete coffee shop homepage without using CSS or JavaScript.
+  <b>A colorful and beginner-friendly static website built using only HTML.</b><br>
+  Designed to help students learn the fundamentals of HTML through a complete real-world website project.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
   <img src="https://img.shields.io/badge/Static-Website-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Beginner-Friendly-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Project-Coffee%20House-brown?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Learning-Project-brown?style=for-the-badge" />
+</p>
+
+<p align="center">
+
+[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-success?style=for-the-badge)](https://anudeeppaladugu.github.io/Beginner-Html-webpage/)
+
 </p>
 
 ---
 
 ## 📖 About the Project
 
-**Anudeep's Coffee House** is a beginner-friendly static website created entirely using **HTML**. The project demonstrates how a complete website can be built using traditional HTML elements, table-based layouts, inline formatting attributes, forms, hyperlinks, images, and semantic content without relying on CSS, JavaScript, or external frameworks.
+**Beginner HTML Webpage** is a complete static website created entirely using **HTML** without any CSS, JavaScript, Bootstrap, or external frameworks.
 
-This project is ideal for students learning HTML fundamentals, practicing web page structure, or completing college web programming assignments.
+The project demonstrates how to build an attractive and structured website using traditional HTML elements such as tables, forms, images, hyperlinks, lists, iframes, and inline formatting. It is specially designed for students who are learning HTML and want to understand webpage structure through hands-on practice.
 
 ---
 
 ## ✨ Features
 
-- 🏠 Attractive homepage
-- 🧭 Navigation menu
-- ☕ Coffee shop themed design
-- 🖼 Hero banner
-- 📖 About Us section
-- ⭐ Features section
-- 🛎 Services table
-- 🖼 Image gallery
-- 👨‍💼 Team section
-- 💰 Pricing plans
-- 📊 Statistics section
-- 💬 Customer testimonials
+- 🏠 Attractive Homepage
+- 🧭 Navigation Bar
+- ☕ Coffee Shop Theme
+- 🖼 Hero Banner
+- 📖 About Section
+- ⭐ Features Section
+- 🛎 Services Table
+- 🖼 Image Gallery
+- 👨‍💼 Team Section
+- 💰 Pricing Plans
+- 📊 Statistics Section
+- 💬 Testimonials
 - ❓ Frequently Asked Questions
-- 🎥 Embedded YouTube video
-- 🍽 Product/Menu table
-- 📋 Ordered, unordered, and definition lists
-- 💌 Complete contact form
-- 📍 Location section
-- 📢 Announcement marquee
-- 🔗 Useful links
-- 📄 Professional footer
+- 🎥 Embedded YouTube Video
+- 🍽 Product Menu Table
+- 📋 Ordered, Unordered & Definition Lists
+- 💌 Contact Form
+- 📍 Location Section
+- 📢 Announcement Marquee
+- 🔗 Useful Links
+- 📄 Professional Footer
+
+---
+
+## 📸 Website Preview
+
+> Add a screenshot named **preview.png** to your repository and uncomment the line below.
+
+```html
+<img src="preview.png" width="100%">
+```
 
 ---
 
 ## 🛠 Technologies Used
 
 - HTML5
-- Table Layout
-- Inline HTML Formatting
-- HTML Forms
 - HTML Tables
+- HTML Forms
 - Hyperlinks
 - Images
 - Iframe
 - Marquee
 - Unicode Emojis
+- Inline HTML Formatting
 
-> **No CSS**
->
-> **No JavaScript**
->
-> **No Bootstrap**
+**No CSS**
+
+**No JavaScript**
+
+**No Bootstrap**
 
 ---
 
 ## 📂 Project Structure
 
-```
-Coffee-House/
+```text
+Beginner-Html-webpage/
 │
 ├── index.html
-└── README.md
+├── README.md
+└── preview.png (optional)
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/coffee-house-html.git
+git clone https://github.com/AnudeepPaladugu/Beginner-Html-webpage.git
 ```
 
-### Open the project
+### Navigate into the Project
 
-Simply open the `index.html` file in any modern web browser.
+```bash
+cd Beginner-Html-webpage
+```
 
-No installation is required.
+### Run the Website
+
+Simply open the **index.html** file in any modern web browser.
+
+No installation or dependencies are required.
 
 ---
 
 ## 📚 HTML Concepts Covered
 
-This project includes practice with:
+This project covers many important HTML concepts including:
 
 - HTML Document Structure
 - Headings
 - Paragraphs
 - Fonts
-- Tables
 - Images
 - Hyperlinks
-- Lists
+- Tables
 - Forms
 - Buttons
-- Text Fields
+- Text Inputs
 - Text Areas
 - Radio Buttons
 - Checkboxes
-- Dropdown Menus
+- Dropdown Lists
 - Fieldsets
 - Legends
+- Ordered Lists
+- Unordered Lists
+- Definition Lists
+- Iframes
 - Marquee
-- Iframe
 - Footer
-- Comments
-- Table-based Layout Design
+- HTML Comments
+- Table-Based Website Layout
 
 ---
 
 ## 🎯 Learning Objectives
 
-After studying this project, beginners will understand how to:
+This project helps beginners learn how to:
 
-- Build a complete webpage using HTML
-- Organize content with tables
+- Build a complete static website
+- Organize content using tables
 - Create navigation menus
-- Add images and multimedia
-- Design forms
-- Build pricing tables
-- Create image galleries
-- Use various HTML elements effectively
-- Structure a real-world static website
+- Insert images and multimedia
+- Design HTML forms
+- Create pricing tables
+- Build image galleries
+- Structure webpages effectively
+- Understand traditional HTML layouts
 
 ---
 
-## 📸 Website Sections
+## 🏗 Website Sections
 
 - Header
 - Navigation Bar
@@ -157,11 +181,12 @@ After studying this project, beginners will understand how to:
 - Testimonials
 - FAQ
 - Video
-- Products
+- Product Menu
 - Lists
 - Quote
 - Contact Form
 - Location
+- Useful Links
 - Footer
 
 ---
@@ -170,11 +195,11 @@ After studying this project, beginners will understand how to:
 
 - HTML Beginners
 - College Students
-- Web Programming Labs
-- HTML Practice
+- HTML Laboratory Programs
 - Mini Projects
+- Web Programming Assignments
+- Practice Projects
 - Static Website Development
-- Learning Traditional HTML Layouts
 
 ---
 
@@ -185,9 +210,9 @@ Possible future enhancements include:
 - Add CSS styling
 - Make the website responsive
 - Add JavaScript interactions
-- Integrate backend functionality
-- Connect the contact form to a database
-- Add animations
+- Improve animations
+- Connect forms to a backend
+- Add a database
 - Improve accessibility
 
 ---
@@ -196,19 +221,25 @@ Possible future enhancements include:
 
 Contributions are welcome.
 
-Feel free to fork this repository, improve the project, and submit a pull request.
+If you would like to improve this project:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Open a Pull Request
 
 ---
 
 ## ⭐ Show Your Support
 
-If you found this project helpful:
+If you found this project helpful,
 
 ⭐ Star this repository
 
 🍴 Fork it
 
-📢 Share it with others
+📢 Share it with your friends
 
 ---
 
@@ -216,23 +247,24 @@ If you found this project helpful:
 
 **Anudeep Paladugu**
 
-Passionate about learning and building beginner-friendly programming projects.
+GitHub: https://github.com/AnudeepPaladugu
 
 ---
 
 ## 📜 License
 
-This project is created for **educational and learning purposes**.
+This project is intended for **educational and learning purposes**.
 
-You are free to use, modify, and learn from this project.
+Feel free to use, modify, and learn from it.
 
 ---
 
 ## 🙏 Acknowledgements
 
 - HTML5 Documentation
-- Beginner Web Development Tutorials
-- Open-source Learning Community
+- MDN Web Docs
+- W3Schools
+- Open Source Community
 - Placeholder image services used for demonstration
 
 ---
